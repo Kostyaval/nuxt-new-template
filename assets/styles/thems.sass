@@ -1,0 +1,33 @@
+@import "abstraction/functions"
+
+$tw-primary: #5E93F3
+$white: #FFFFFF
+$black: #000000
+$tw-text-color: #000000
+$tw-link-color: #5E93F3
+$tw-btn-color: #FFFFFF
+$tw-btn-background: #4E61F2
+
+// TechnicalWork
+$tw-background: #000B53
+
+
+\:root
+  // Main default colors
+  --white: #{$white}
+  --black: #{$black}
+  // TechnicalWork Text colors
+  --tw-primary-text-color: #{$tw-primary}
+  --tw-text-color: var(--white)
+  --tw-secondary-text-color: #{safeRgba($tw-text-color, .65)}
+  --tw-link-color: #{$tw-link-color}
+  // TechnicalWork  Background colors
+  --tw-background: #{$tw-background}
+  // Buttons primary colors
+  --btn-color: #{$tw-btn-color}
+  --btn-color-hover: #{$tw-btn-background}
+  --btn-background: #{$tw-btn-background}
+  --btn-background-hover: #{$tw-btn-color}
+
+
+

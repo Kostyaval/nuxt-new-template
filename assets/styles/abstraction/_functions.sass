@@ -1,0 +1,4 @@
+@function safeRgba($color,$alpha: 1.0)
+  @return unquote("rgba(#{red($color)}, #{green($color)}, #{blue($color)}, #{$alpha})")
+@function parsRgba($color,$alpha: 1.0)
+  @return #{red($color)}, #{green($color)}, #{blue($color)}, #{$alpha}
